@@ -9,7 +9,7 @@ commands = [
 [phases.build]
 commands = [
   "cd frontend && npx vite build",
-  "cd backend && pip install -r requirements.txt"
+  "cd backend && pip install --break-system-packages -r requirements.txt"
 ]
 
 [start]
